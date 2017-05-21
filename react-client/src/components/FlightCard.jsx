@@ -257,7 +257,7 @@ import {
                 <Card style={styles.card}>
                 <CardHeader
                   title="Return Information"
-                  subtitle='Status: On-Time'
+                  subtitle={'Status: '+ flightStatus[this.props.returnFlight.status] }
                   avatar={<Avatar icon={<ActionFlightTakeoff />}
                   style={styles.avatar}
                   color={white}/>}
